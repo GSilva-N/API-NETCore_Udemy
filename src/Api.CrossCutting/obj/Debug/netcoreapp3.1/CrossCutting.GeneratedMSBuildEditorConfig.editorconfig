@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = CrossCutting
+build_property.ProjectDir = c:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.CrossCutting\
