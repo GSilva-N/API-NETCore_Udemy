@@ -13,7 +13,7 @@ namespace Api.Data.Context
         //Usada para criação de Banco de Dados, Tabelas e etc...
         public MyContext CreateDbContext(string[] args)
         {
-            var connectionString = "Server=localhost;Port=3306;Database=db_api;Uid=root;Pwd=141221";
+            var connectionString = "Server=localhost;Port=3306;Database=db_api;Uid=root;Pwd=";
             var optionsBuilder = new DbContextOptionsBuilder<MyContext>();
             optionsBuilder.UseMySql(connectionString);
             return new MyContext(optionsBuilder.Options);
