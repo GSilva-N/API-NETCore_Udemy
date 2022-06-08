@@ -17,4 +17,4 @@ C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\obj\Debug\netcor
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\obj\Debug\netcoreapp3.1\Application.dll
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\obj\Debug\netcoreapp3.1\Application.pdb
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\obj\Debug\netcoreapp3.1\Application.genruntimeconfig.cache
-C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
+C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\obj\Debug\netcoreapp3.1\Application.csproj.AssemblyReference.cache
