@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "lxE8JfzjqAcISyXWjIIU0crRIvvTJvskGb04pJs1BVUF9SsCeM66k64nFxO7kDB/PJp+ECVY5VgRY9WoH/U0Pg==",
+  "dgSpecHash": "OD9ompNntHOccB1lFMvhXZHqNSNhV5oWWd/+IW7wwMgJUiVEA5ypfEyh81NOOuXDHJvF7+TmliKsAwqVqzjcTg==",
   "success": true,
   "projectFilePath": "C:\\Users\\GSilva\\Documents\\API-NETCore_Udemy\\src\\Api.Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\GSilva\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
+    "C:\\Users\\GSilva\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.1\\automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",
     "C:\\Users\\GSilva\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\GSilva\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\GSilva\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

@@ -15,14 +15,16 @@ namespace Api.Application.Controllers
     public class UsersController : ControllerBase
     {
         private readonly ILogger<UsersController> _logger;
+        private IUserService _service;
 
-        public UsersController(ILogger<UsersController> logger)
+        public UsersController(ILogger<UsersController> logger, IUserService service)
         {
             _logger = logger;
+            _service = service;
         }
 
         [HttpGet]
-        public async Task<ActionResult> GettAll([FromServices] IUserService service)
+        public async Task<ActionResult> GetAll()
         {
 
             if (!ModelState.IsValid)
@@ -30,7 +32,7 @@ namespace Api.Application.Controllers
 
             try
             {
-                return Ok(await service.GetAll());
+                return Ok(await _service.GetAll());
             }
             catch (ArgumentException ex)
             {
@@ -38,6 +40,26 @@ namespace Api.Application.Controllers
                 return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
             }
         }
+
+        [HttpGet]
+        [Route("{id}", Name = "GetById")]
+        public async Task<ActionResult> GetById(Guid id)
+        {
+
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            try
+            {
+                return Ok(await _service.Get(id));
+            }
+            catch (ArgumentException ex)
+            {
+
+                return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+
 
     }
 }
