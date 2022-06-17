@@ -56,7 +56,6 @@ namespace Api.Data.Repository
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
 
@@ -71,7 +70,6 @@ namespace Api.Data.Repository
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
         }
@@ -84,7 +82,6 @@ namespace Api.Data.Repository
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
         }
@@ -107,7 +104,6 @@ namespace Api.Data.Repository
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
 

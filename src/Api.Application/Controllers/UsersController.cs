@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
+using Api.Domain.Entities;
 using Api.Domain.Interfaces.Services.User;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -52,6 +53,76 @@ namespace Api.Application.Controllers
             try
             {
                 return Ok(await _service.Get(id));
+            }
+            catch (ArgumentException ex)
+            {
+
+                return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> Post([FromBody] UserEntity user)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            try
+            {
+                var result = await _service.Post(user);
+
+                if (user != null)
+                {
+                    return Created(new Uri(Url.Link("GetById", new { id = result.Id })), result);
+                }
+                else
+                {
+                    return BadRequest(ModelState);
+                }
+            }
+            catch (ArgumentException ex)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+
+        [HttpPut]
+        public async Task<ActionResult> Put([FromBody] UserEntity user)
+        {
+
+            if (!ModelState.IsValid)
+                return BadRequest();
+
+            try
+            {
+                var result = await _service.Put(user);
+
+                if (result != null)
+                {
+                    return Ok(result);
+                }
+                else
+                {
+                    return BadRequest();
+                }
+            }
+            catch (ArgumentException ex)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+
+        [HttpDelete]
+        [Route("{id}", Name = "DeleteById")]
+        public async Task<ActionResult> Delete(Guid id)
+        {
+
+            if (!ModelState.IsValid)
+                return BadRequest();
+
+            try
+            {
+                return Ok(await _service.Delete(id));
             }
             catch (ArgumentException ex)
             {
