@@ -65,3 +65,7 @@ C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\bin\Debug\netcor
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
