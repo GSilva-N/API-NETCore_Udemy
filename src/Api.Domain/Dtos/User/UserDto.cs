@@ -9,7 +9,7 @@ namespace Api.Domain.Dtos.User
     public class UserDto
     {
         [Required(ErrorMessage = "Nome é um Campo Obrigatório")]
-        public string Nome { get; set; }
+        public string Name { get; set; }
         [Required(ErrorMessage = "Email é um campo obrigatório")]
         [EmailAddress]
         public string Email { get; set; }
