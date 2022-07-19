@@ -5423,6 +5423,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
             "C:\\Users\\GSilva\\Documents\\API-NETCore_Udemy\\src\\Api.Data\\Data.csproj": {
               "projectPath": "C:\\Users\\GSilva\\Documents\\API-NETCore_Udemy\\src\\Api.Data\\Data.csproj"
@@ -5444,6 +5445,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "AutoMapper": {
             "target": "Package",

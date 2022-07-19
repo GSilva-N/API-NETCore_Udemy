@@ -8429,6 +8429,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
             "C:\\Users\\GSilva\\Documents\\API-NETCore_Udemy\\src\\Api.CrossCutting\\CrossCutting.csproj": {
               "projectPath": "C:\\Users\\GSilva\\Documents\\API-NETCore_Udemy\\src\\Api.CrossCutting\\CrossCutting.csproj"
@@ -8450,6 +8451,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Faker.NETCore": {
             "target": "Package",

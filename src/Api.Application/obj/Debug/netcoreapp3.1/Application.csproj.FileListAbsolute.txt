@@ -17,7 +17,6 @@ C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\obj\Debug\netcor
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\obj\Debug\netcoreapp3.1\Application.dll
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\obj\Debug\netcoreapp3.1\Application.pdb
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\obj\Debug\netcoreapp3.1\Application.genruntimeconfig.cache
-C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
@@ -72,3 +71,4 @@ C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\bin\Debug\netcor
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\obj\Debug\netcoreapp3.1\Application.csproj.AssemblyReference.cache
