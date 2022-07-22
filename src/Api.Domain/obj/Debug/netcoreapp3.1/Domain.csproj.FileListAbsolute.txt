@@ -6,4 +6,4 @@ C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Domain\obj\Debug\netcoreapp3
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Domain\obj\Debug\netcoreapp3.1\Domain.dll
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Domain\obj\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Domain\obj\Debug\netcoreapp3.1\Domain.csproj.AssemblyReference.cache
