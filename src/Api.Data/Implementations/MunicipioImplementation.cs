@@ -28,7 +28,7 @@ namespace Data.Implementations
         public async Task<MunicipioEntity> GetCompleteById(Guid id)
         {
             return await _dataSet.Include(m => m.UF)
-                .FirstOrDefaultAsync(m => m.CodigoIBGE.Equals(id));
+                .FirstOrDefaultAsync(m => m.Id.Equals(id));
         }
     }
 }
