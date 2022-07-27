@@ -10,19 +10,22 @@ namespace Api.CrossCutting.AutoMapper
     public class EntityToDtoProfile : Profile
     {
         public EntityToDtoProfile()
-        {   //User
+        {   
+            #region User
             CreateMap<UserDto, UserEntity>()
                 .ReverseMap();
             CreateMap<UserDtoCreateResult, UserEntity>()
                 .ReverseMap();
             CreateMap<UserDtoUpdateResult, UserEntity>()
                 .ReverseMap();
+            #endregion
 
-            //UF
+            #region UF
             CreateMap<UFDto, UFEntity>()
                 .ReverseMap();
+            #endregion
 
-            //Municipio
+            #region Municipio
             CreateMap<MunicipioDto, MunicipioEntity>()
                 .ReverseMap();
             CreateMap<MunicipioDtoCompleto, MunicipioEntity>()
@@ -31,15 +34,16 @@ namespace Api.CrossCutting.AutoMapper
                 .ReverseMap();
             CreateMap<MunicipioDtoUpdateResult, MunicipioEntity>()
                 .ReverseMap();
+            #endregion
 
-            //CEP
+            #region CEP
             CreateMap<CepDto, CepEntity>()
                 .ReverseMap();
             CreateMap<CepDtoCreateResult, CepEntity>()
                 .ReverseMap();
             CreateMap<CepDtoUpdateResult, CepEntity>()
                 .ReverseMap();
-
+            #endregion
         }
     }
 }

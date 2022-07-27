@@ -8,7 +8,7 @@ namespace Api.CrossCutting.AutoMapper
     public class ModelToEntityProfile : Profile
     {
         public ModelToEntityProfile()
-        {   //User
+        {   
             CreateMap<UserModel, UserEntity>()
                 .ReverseMap();
             CreateMap<UFModel, UFEntity>()

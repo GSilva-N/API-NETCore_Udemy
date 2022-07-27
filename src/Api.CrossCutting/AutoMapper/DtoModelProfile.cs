@@ -20,21 +20,23 @@ namespace Api.CrossCutting.AutoMapper
             CreateMap<UFModel, UFDto>()
                 .ReverseMap();
 
-            //Municipio
+            #region Municipio
             CreateMap<MunicipioModel, MunicipioDto>()
                 .ReverseMap();
             CreateMap<MunicipioModel, MunicipioDtoCreate>()
                 .ReverseMap();
             CreateMap<MunicipioModel, MunicipioDtoUpdate>()
                 .ReverseMap();
+            #endregion
 
-            //Cep
+            #region Cep
             CreateMap<CepModel, CepDto>()
                 .ReverseMap();
             CreateMap<CepModel, CepDtoCreate>()
                 .ReverseMap();
             CreateMap<CepModel, CepDtoUpdate>()
                 .ReverseMap();
+            #endregion
         }
     }
 }

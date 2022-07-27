@@ -9,7 +9,7 @@ namespace Domain.Interfaces.Services.UF
     public interface IUFService
     {
         Task<UFDto> GetUF(Guid id);
-        Task<List<UFDto>> GetUFAll(Guid id);
+        Task<List<UFDto>> GetUFAll();
 
     }
 }
