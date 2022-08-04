@@ -11,6 +11,7 @@ namespace Api.Domain.Interfaces.Services.User
     {
         Task<UserDto> Get(Guid id);
         Task<List<UserDto>> GetAll();
+        Task<List<UserDto>> GetByName(string name);
         Task<UserDtoCreateResult> Post(UserDto user);
         Task<UserDtoUpdateResult> Put(UserDto user);
         Task<bool> Delete(Guid id);

@@ -1,10 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Api.Domain.Interfaces.Services.User;
 using Api.Service.Services;
+using Domain.Interfaces.Services.CEP;
+using Domain.Interfaces.Services.Municipio;
+using Domain.Interfaces.Services.UF;
 using Microsoft.Extensions.DependencyInjection;
+using Service.Services;
 
 namespace Api.CrossCutting.DependencyInjection
 {
@@ -14,6 +14,9 @@ namespace Api.CrossCutting.DependencyInjection
         {
             serviceCollection.AddTransient<IUserService, UserService>();
             serviceCollection.AddTransient<ILoginService, LoginService>();
+            serviceCollection.AddTransient<IUFService, UFService>();
+            serviceCollection.AddTransient<IMunicipioService, MunicipioService>();
+            serviceCollection.AddTransient<ICepService, CepService>();
         }
     }
 }

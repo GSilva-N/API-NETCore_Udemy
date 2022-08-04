@@ -17,7 +17,7 @@ namespace Api.Application.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
-        private readonly ILogger<UsersController> _logger;
+        private ILogger<UsersController> _logger;
         private IUserService _service;
 
         public UsersController(ILogger<UsersController> logger, IUserService service)
@@ -46,7 +46,7 @@ namespace Api.Application.Controllers
         }
 
         [Authorize("Bearer")]
-        [HttpGet]
+        [HttpGet("{id:Guid}")]
         [Route("{id}", Name = "GetById")]
         public async Task<ActionResult> GetById(Guid id)
         {
@@ -64,7 +64,27 @@ namespace Api.Application.Controllers
                 return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
             }
         }
+
         [Authorize("Bearer")]
+        [HttpGet("{name}")]
+        [Route("{name}", Name = "GetByName")]
+        public async Task<ActionResult> GetByName(string name)
+        {
+
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            try
+            {
+                return Ok(await _service.GetByName(name));
+            }
+            catch (ArgumentException ex)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+
+        [AllowAnonymous]
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] UserDto user)
         {

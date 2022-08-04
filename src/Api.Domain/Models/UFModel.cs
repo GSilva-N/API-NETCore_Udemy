@@ -6,18 +6,18 @@ namespace Domain.Models
 {
     public class UFModel : BaseModel
     {
-        private string _siglaUf;
-        public string SiglaUf 
+        private string _siglaUF;
+        public string SiglaUF 
         { 
-          get { return _siglaUf; }
-          set { _siglaUf = value; } 
+          get { return _siglaUF; }
+          set { _siglaUF = value; } 
         }
 
-        private string _nomeUf;
-        public string NomeUf
+        private string _nomeUF;
+        public string NomeUF
         {
-            get { return _nomeUf; }
-            set { _nomeUf = value; }
+            get { return _nomeUF; }
+            set { _nomeUF = value; }
         }
 
     }

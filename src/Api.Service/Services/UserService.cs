@@ -54,5 +54,12 @@ namespace Api.Service.Services
 
             return _mapper.Map<UserDtoUpdateResult>(result);
         }
+
+        public async Task<List<UserDto>> GetByName(string name)
+        {
+            var entity = await _repository.SelectAsync();
+            var listaPorNome = entity.Where(u => u.Name.Contains(name));
+            return _mapper.Map<List<UserDto>>(listaPorNome);
+        }
     }
 }
