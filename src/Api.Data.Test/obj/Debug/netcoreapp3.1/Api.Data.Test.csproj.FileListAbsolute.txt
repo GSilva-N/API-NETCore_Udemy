@@ -139,7 +139,6 @@ C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Data.Test\bin\Debug\netcorea
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Data.Test\bin\Debug\netcoreapp3.1\CrossCutting.pdb
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Data.Test\bin\Debug\netcoreapp3.1\Domain.pdb
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Data.Test\bin\Debug\netcoreapp3.1\Service.pdb
-C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.csproj.AssemblyReference.cache
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.csproj.CoreCompileInputs.cache
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.AssemblyInfoInputs.cache
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.AssemblyInfo.cs
@@ -147,3 +146,4 @@ C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Data.Test\obj\Debug\netcorea
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.dll
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.pdb
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.genruntimeconfig.cache
+C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.csprojAssemblyReference.cache

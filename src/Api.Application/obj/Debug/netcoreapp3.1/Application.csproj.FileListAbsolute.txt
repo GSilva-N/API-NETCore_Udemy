@@ -60,7 +60,6 @@ C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\bin\Debug\netcor
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\bin\Debug\netcoreapp3.1\Service.pdb
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\bin\Debug\netcoreapp3.1\CrossCutting.pdb
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\bin\Debug\netcoreapp3.1\Data.pdb
-C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\obj\Debug\netcoreapp3.1\Application.csproj.AssemblyReference.cache
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\obj\Debug\netcoreapp3.1\Application.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
@@ -72,3 +71,4 @@ C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\obj\Debug\netcor
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\obj\Debug\netcoreapp3.1\Application.dll
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\obj\Debug\netcoreapp3.1\Application.pdb
 C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\obj\Debug\netcoreapp3.1\Application.genruntimeconfig.cache
+C:\Users\GSilva\Documents\API-NETCore_Udemy\src\Api.Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
