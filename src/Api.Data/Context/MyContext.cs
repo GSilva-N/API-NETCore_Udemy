@@ -29,6 +29,17 @@ namespace Api.Data.Context
             modelBuilder.Entity<MunicipioEntity>(new MunicipioMap().Configure);
             modelBuilder.Entity<CepEntity>(new CepMap().Configure);
             UFSeeds.Ufs(modelBuilder);
+
+            modelBuilder.Entity<UserEntity>().HasData(
+                new UserEntity
+                {
+                    Id = Guid.NewGuid(),
+                    Name = "Administrador",
+                    Email = "admin@email.com",
+                    CreateAt = DateTime.Now,
+                    UpdateAt = DateTime.Now,
+                }
+            );
         }
     }
 }

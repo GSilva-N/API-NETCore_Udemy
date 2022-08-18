@@ -26,7 +26,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "C:\\Users\\GSilva\\Documents\\API-NETCore_Udemy\\src\\Api.CrossCutting\\CrossCutting.csproj": {
                 "projectPath": "C:\\Users\\GSilva\\Documents\\API-NETCore_Udemy\\src\\Api.CrossCutting\\CrossCutting.csproj"
@@ -48,7 +47,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -99,7 +97,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "C:\\Users\\GSilva\\Documents\\API-NETCore_Udemy\\src\\Api.Data\\Data.csproj": {
                 "projectPath": "C:\\Users\\GSilva\\Documents\\API-NETCore_Udemy\\src\\Api.Data\\Data.csproj"
@@ -121,7 +118,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -173,7 +169,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "C:\\Users\\GSilva\\Documents\\API-NETCore_Udemy\\src\\Api.Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\GSilva\\Documents\\API-NETCore_Udemy\\src\\Api.Domain\\Domain.csproj"
@@ -189,7 +184,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
@@ -253,7 +247,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -265,7 +258,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
@@ -313,7 +305,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "C:\\Users\\GSilva\\Documents\\API-NETCore_Udemy\\src\\Api.Data\\Data.csproj": {
                 "projectPath": "C:\\Users\\GSilva\\Documents\\API-NETCore_Udemy\\src\\Api.Data\\Data.csproj"
@@ -332,7 +323,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",

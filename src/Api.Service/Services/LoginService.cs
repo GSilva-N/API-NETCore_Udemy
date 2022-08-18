@@ -23,7 +23,6 @@ namespace Api.Service.Services
 
         public LoginService(IUserRepository repository,
                             SigningConfiguration signingCredentials,
-                            TokenConfiguration tokenConfiguration,
                             IConfiguration configuration)
         {
             _repository = repository;
